@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.extension": "language",
+        "ostream": "cpp"
+    }
+}
