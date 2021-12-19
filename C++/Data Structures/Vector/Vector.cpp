@@ -6,7 +6,7 @@ int main()
 {
    // An empty vector of vectors. The space
    // between the 2 '>' signs is necessary
-   vector<vector<int>> v2d;
+   vector<vector<int> > v2d;
 
    // If you intend creating many vectors
    // of vectors, the following's tidier
@@ -25,7 +25,7 @@ int main()
 
    // Now create a vector of 3 elements.
    // Each element is a copy of v2
-   vector<vector<int>> v2d2(5, v2);
+   vector<vector<int> > v2d2(5, v2);
    cout << v2d2.size() << endl;
 
    // Print out the elements
